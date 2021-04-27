@@ -33,4 +33,4 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
       - name: Create pom.xml
-        run: ./gradlew install
+        run: ./gradlew generatePomFileForMavenJavaPublication
